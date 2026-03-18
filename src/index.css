@@ -1,0 +1,258 @@
+@import url("https://fonts.googleapis.com/css2?family=Figtree:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-paper text-warm-600 font-body;
+}
+
+* {
+  @apply antialiased;
+}
+
+.section-title {
+  @apply text-3xl md:text-4xl font-display font-semibold tracking-tight text-ink;
+}
+
+.section-subtitle {
+  @apply text-warm-500 mt-4 max-w-2xl;
+}
+
+.card {
+  @apply rounded-3xl border border-warm-100 bg-card shadow-card transition duration-300;
+}
+
+.card:hover {
+  @apply -translate-y-1 shadow-card-hover;
+}
+
+.subcard {
+  @apply rounded-2xl border border-warm-100 bg-paper;
+}
+
+.eyebrow {
+  @apply text-xs uppercase tracking-[0.3em] text-warm-500;
+}
+
+.section-kicker {
+  @apply flex items-center gap-4 text-xs font-semibold uppercase tracking-[0.35em] text-amber-600;
+}
+
+.kicker-line {
+  @apply h-px w-10 bg-amber-500;
+}
+
+.icon-box {
+  @apply flex h-14 w-14 items-center justify-center rounded-2xl border border-amber-200 bg-card text-xl text-amber-600 shadow-sm;
+}
+
+.icon-box--blue {
+  @apply border-sky-200 bg-sky-100 text-sky-600;
+}
+
+.icon-box--green {
+  @apply border-emerald-200 bg-emerald-100 text-emerald-600;
+}
+
+.icon-box--amber {
+  @apply border-amber-200 bg-amber-100 text-amber-600;
+}
+
+.card-divider {
+  @apply my-6 h-px w-full bg-warm-100;
+}
+
+.skill-chip {
+  @apply rounded-full border border-warm-200 bg-paper px-4 py-2 text-xs font-semibold text-warm-600;
+}
+
+.project-card {
+  @apply card border border-warm-200 bg-card p-8;
+}
+
+.project-card.featured {
+  @apply border-amber-400/60;
+}
+
+.project-icon {
+  @apply flex h-16 w-16 items-center justify-center rounded-2xl border border-warm-200 bg-card text-2xl text-amber-600 shadow-sm;
+}
+
+.project-pill {
+  @apply rounded-full border border-sage-500/30 bg-sage-100 px-4 py-2 text-xs font-semibold uppercase tracking-[0.2em] text-sage-600;
+}
+
+.project-tag {
+  @apply rounded-full border border-warm-200 bg-paper px-3 py-1 text-xs font-semibold text-warm-600;
+}
+
+.project-footer {
+  @apply flex flex-wrap items-center justify-between gap-4 text-xs font-semibold uppercase tracking-[0.2em] text-warm-500;
+}
+
+.status-ongoing {
+  @apply text-sage-600;
+}
+
+.status-published {
+  @apply text-amber-600;
+}
+
+.status-pill {
+  @apply inline-flex items-center gap-2 rounded-full border border-sage-500/40 bg-sage-100 px-4 py-2 text-xs font-semibold uppercase tracking-[0.2em] text-sage-600;
+}
+
+.status-dot {
+  @apply h-2 w-2 rounded-full bg-sage-600;
+}
+
+.credentials-grid {
+  @apply mt-12 grid gap-10 lg:grid-cols-2;
+}
+
+.credentials-column {
+  @apply space-y-6;
+}
+
+.credentials-heading {
+  @apply text-lg font-display font-semibold text-ink;
+}
+
+.credentials-rule {
+  @apply mt-4 h-px bg-amber-500/60;
+}
+
+.credential-card {
+  @apply card flex items-start gap-4 p-5;
+}
+
+.credential-icon {
+  @apply flex h-14 w-14 items-center justify-center rounded-2xl border border-amber-200 bg-card text-xl text-amber-600 shadow-sm;
+}
+
+.credential-icon--tata {
+  @apply border-amber-200 bg-amber-100 text-amber-600;
+}
+
+.credential-icon--deloitte {
+  @apply border-sky-200 bg-sky-100 text-sky-600;
+}
+
+.credential-icon--publication {
+  @apply border-emerald-200 bg-emerald-100 text-emerald-600;
+}
+
+.credential-label {
+  @apply text-xs font-semibold uppercase tracking-[0.3em] text-amber-600;
+}
+
+.credential-title {
+  @apply text-base font-semibold text-ink;
+}
+
+.credential-sub {
+  @apply text-sm text-warm-500;
+}
+
+.education-card {
+  @apply card p-6;
+}
+
+.education-row {
+  @apply flex items-start justify-between gap-6;
+}
+
+.education-degree {
+  @apply text-base font-semibold text-ink;
+}
+
+.education-school {
+  @apply text-sm text-warm-500;
+}
+
+.education-score {
+  @apply text-xl font-display font-semibold text-ink;
+}
+
+.education-year {
+  @apply text-xs uppercase tracking-[0.25em] text-warm-500 text-right;
+}
+
+.timeline {
+  @apply mt-12 divide-y divide-warm-100;
+}
+
+.timeline-item {
+  @apply grid gap-6 py-8 lg:grid-cols-[0.35fr_1fr];
+}
+
+.timeline-meta {
+  @apply space-y-3 text-sm text-warm-500;
+}
+
+.timeline-date {
+  @apply text-sm font-semibold text-warm-500;
+}
+
+.timeline-pill {
+  @apply inline-flex items-center rounded-full border border-amber-200 bg-paper px-3 py-1 text-xs font-semibold uppercase tracking-[0.2em] text-amber-600;
+}
+
+.timeline-role {
+  @apply text-xl font-display font-semibold text-ink;
+}
+
+.timeline-org {
+  @apply text-sm font-semibold text-sage-600;
+}
+
+.timeline-desc {
+  @apply mt-4 text-sm leading-relaxed text-warm-500;
+}
+
+.timeline-tags {
+  @apply mt-4 flex flex-wrap gap-2;
+}
+
+.timeline-tag {
+  @apply rounded-full border border-warm-200 bg-paper px-3 py-1 text-xs font-semibold text-warm-600;
+}
+
+.badge {
+  @apply px-3 py-1 rounded-full text-xs font-medium bg-warm-100 text-warm-600;
+}
+
+
+.badge-navy {
+  @apply bg-navy-100 text-ink;
+}
+
+.badge-sage {
+  @apply bg-sage-100 text-sage-600;
+}
+
+.badge-amber {
+  @apply bg-amber-100 text-amber-600;
+}
+
+.tag {
+  @apply rounded-full border border-warm-100 bg-paper px-3 py-1 text-xs text-warm-600;
+}
+
+.btn-primary {
+  @apply inline-flex items-center justify-center px-5 py-3 rounded-full bg-ink text-white font-semibold transition hover:-translate-y-0.5 hover:bg-navy-600;
+}
+
+.btn-secondary {
+  @apply inline-flex items-center justify-center px-5 py-3 rounded-full border border-warm-200 text-ink transition hover:-translate-y-0.5 hover:border-ink/40 hover:bg-navy-100;
+}
