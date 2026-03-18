@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import {
   FiArrowUpRight,
+  FiDownload,
 } from "react-icons/fi";
 
 const fadeUp = {
@@ -34,6 +35,9 @@ const Hero = () => {
             </a>
             <a className="transition hover:text-ink" href="#education">
               Education
+            </a>
+            <a className="transition hover:text-ink" href="#resume">
+              Resume
             </a>
             <a
               href="#contact"
@@ -95,10 +99,20 @@ const Hero = () => {
             </motion.p>
 
             <motion.div custom={0.3} variants={fadeUp}>
-              <a href="#projects" className="btn-primary">
-                View Projects
-                <FiArrowUpRight className="ml-2" />
-              </a>
+              <div className="flex flex-wrap items-center gap-4">
+                <a href="#projects" className="btn-primary">
+                  View Projects
+                  <FiArrowUpRight className="ml-2" />
+                </a>
+                <a
+                  href="/Sharan%20Resume%20.pdf"
+                  download="Sharan_Resume.pdf"
+                  className="btn-secondary"
+                >
+                  Download Resume
+                  <FiDownload className="ml-2" />
+                </a>
+              </div>
             </motion.div>
           </motion.div>
 
