@@ -89,10 +89,13 @@ const Hero = () => {
               variants={fadeUp}
               className="text-base text-warm-500 md:text-lg"
             >
-              Final-year Computer Engineering student at A.G. Patil Institute of
-              Technology, building intelligent full-stack web applications with
-              Python, Django, and React. Passionate about AI/ML and solving
-              real-world problems through data-driven solutions.
+              Entry-level Full Stack Developer / AI Engineer with hands-on
+              experience building scalable web applications using React.js,
+              Next.js, FastAPI, and Django. Strong foundation in data
+              structures, REST APIs, and backend systems, with practical
+              exposure to AI/ML-based applications and real-time data
+              processing. Passionate about developing efficient, user-centric
+              solutions and optimizing performance.
             </motion.p>
 
             <motion.div custom={0.3} variants={fadeUp}>
