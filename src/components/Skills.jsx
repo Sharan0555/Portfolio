@@ -46,7 +46,7 @@ const skillGroups = [
 ];
 
 const Skills = ({ compact = false }) => {
-  const sectionClass = compact ? "mt-10" : "py-24";
+  const sectionClass = compact ? "" : "py-24";
   const containerClass = compact ? "px-0" : "mx-auto max-w-6xl px-6";
 
   return (

@@ -1,4 +1,3 @@
-import { motion } from "framer-motion";
 import Projects from "./Projects.jsx";
 import Skills from "./Skills.jsx";
 
@@ -84,29 +83,6 @@ const About = () => {
   return (
     <section id="about" className="pb-24 pt-16">
       <div className="mx-auto max-w-6xl px-6">
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true, amount: 0.3 }}
-          transition={{ duration: 0.6 }}
-        >
-          <h2 className="section-title">About Me</h2>
-          <div className="mt-6 max-w-3xl space-y-4 text-warm-500">
-            <p>
-              I am a Computer Engineering student and aspiring Full Stack
-              Developer with a strong interest in AI-powered applications. I
-              have experience building projects like AI Stock Price Prediction
-              using Python, Django, and machine learning.
-            </p>
-            <p>
-              Currently, I am pursuing a Python Full Stack internship, where I
-              work on developing real-world web applications and APIs. I am
-              passionate about solving problems and creating intelligent,
-              data-driven solutions.
-            </p>
-          </div>
-        </motion.div>
-
         <Skills compact />
 
         <div id="experience" className="mt-16 space-y-4">
