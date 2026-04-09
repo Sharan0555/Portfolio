@@ -26,9 +26,9 @@ const contactItems = [
     iconClass: "bg-amber-100 text-amber-600",
   },
   {
-    label: "GitHub",
-    value: "github.com/Sharan0555",
-    href: "https://github.com/Sharan0555",
+    label: "GitHub Repo",
+    value: "github.com/Sharan0555/StockPricePrediction",
+    href: "https://github.com/Sharan0555/StockPricePrediction",
     icon: FiGithub,
     iconClass: "bg-navy-100 text-ink",
   },

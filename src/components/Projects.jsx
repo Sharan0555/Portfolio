@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { FiCalendar } from "react-icons/fi";
+import { FiArrowUpRight, FiCalendar } from "react-icons/fi";
 
 const projects = [
   {
@@ -14,19 +14,7 @@ const projects = [
     statusDot: "bg-sage-600",
     icon: "📈",
     featured: true,
-  },
-  {
-    title: "License Plate Recognition",
-    description:
-      "An automated vehicle identification system using image processing and ML to detect license plates from images and video feeds. Applications in traffic monitoring, security, and smart parking.",
-    tags: ["Python", "Computer Vision", "Image Processing", "ML"],
-    period: "Apr 2024 - Jun 2025",
-    category: "Computer Vision",
-    status: "Published",
-    statusTone: "status-published",
-    statusDot: "bg-amber-600",
-    icon: "🚗",
-    featured: false,
+    githubUrl: "https://github.com/Sharan0555/StockPricePrediction",
   },
 ];
 
@@ -51,7 +39,7 @@ const Projects = ({ compact = false }) => {
           <h2 className="section-title">Projects</h2>
         </motion.div>
 
-        <div className="mt-12 grid gap-8 lg:grid-cols-2">
+        <div className="mt-12 max-w-3xl">
           {projects.map((project, index) => {
             return (
               <motion.article
@@ -81,6 +69,17 @@ const Projects = ({ compact = false }) => {
                       {tag}
                     </span>
                   ))}
+                </div>
+                <div className="mt-6">
+                  <a
+                    href={project.githubUrl}
+                    target="_blank"
+                    rel="noreferrer"
+                    className="btn-secondary"
+                  >
+                    View GitHub Repo
+                    <FiArrowUpRight className="ml-2" />
+                  </a>
                 </div>
                 <div className="card-divider" />
                 <div className="project-footer">

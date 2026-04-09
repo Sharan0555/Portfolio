@@ -102,9 +102,8 @@ const About = () => {
             <p>
               I am a Computer Engineering student and aspiring Full Stack
               Developer with a strong interest in AI-powered applications. I
-              have experience building projects like Stock Market Prediction and
-              License Plate Recognition using Python, Django, and machine
-              learning.
+              have experience building projects like AI Stock Price Prediction
+              using Python, Django, and machine learning.
             </p>
             <p>
               Currently, I am pursuing a Python Full Stack internship, where I
