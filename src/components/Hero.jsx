@@ -40,7 +40,7 @@ const Hero = () => {
               href="#contact"
               className="inline-flex items-center justify-center rounded-full bg-ink px-5 py-2 text-xs font-semibold uppercase tracking-[0.2em] text-white transition hover:-translate-y-0.5 hover:bg-navy-600"
             >
-              Hire Me
+              Contact Me
             </a>
           </div>
           <div className="flex flex-1 items-center justify-between md:hidden">
@@ -51,7 +51,7 @@ const Hero = () => {
               href="#contact"
               className="inline-flex items-center justify-center rounded-full bg-ink px-4 py-2 text-[10px] font-semibold uppercase tracking-[0.2em] text-white"
             >
-              Hire Me
+              Contact Me
             </a>
           </div>
         </nav>
