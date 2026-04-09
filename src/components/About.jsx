@@ -18,13 +18,6 @@ const certifications = [
     tone: "credential-icon--deloitte",
     ariaLabel: "Deloitte",
   },
-  {
-    label: "Publication · Jun 2025",
-    title: "License Plate Recognition AI — Research Paper",
-    icon: "📄",
-    tone: "credential-icon--publication",
-    ariaLabel: "Publication",
-  },
 ];
 
 const education = [
