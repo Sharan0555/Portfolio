@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { motion } from "framer-motion";
-import { FiGithub, FiLinkedin, FiMail, FiPhone } from "react-icons/fi";
+import { FiLinkedin, FiMail, FiPhone } from "react-icons/fi";
 import emailjs from "@emailjs/browser";
 
 const contactItems = [
@@ -24,13 +24,6 @@ const contactItems = [
     href: "https://www.linkedin.com/in/sharan-patil123",
     icon: FiLinkedin,
     iconClass: "bg-amber-100 text-amber-600",
-  },
-  {
-    label: "GitHub Repo",
-    value: "github.com/Sharan0555/StockPricePrediction",
-    href: "https://github.com/Sharan0555/StockPricePrediction",
-    icon: FiGithub,
-    iconClass: "bg-navy-100 text-ink",
   },
 ];
 
