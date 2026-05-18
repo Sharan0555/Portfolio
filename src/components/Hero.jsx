@@ -141,7 +141,7 @@ const Hero = () => {
               </p>
             </div>
             <div className="card p-6">
-              <p className="eyebrow">AI Projects</p>
+              <p className="eyebrow">Projects</p>
               <p className="mt-3 text-3xl font-display font-semibold text-ink">
                 2+
               </p>
