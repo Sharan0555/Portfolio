@@ -9,9 +9,6 @@ const projects = [
     tags: ["Python", "Machine Learning", "NumPy", "Data Analysis"],
     period: "Jun 2025 - Present",
     category: "AI / Machine Learning",
-    status: "Ongoing",
-    statusTone: "status-ongoing",
-    statusDot: "bg-sage-600",
     icon: "📈",
     featured: true,
     githubUrl: "https://github.com/Sharan0555/StockPricePrediction",
@@ -86,12 +83,6 @@ const Projects = ({ compact = false }) => {
                   <div className="flex items-center gap-2">
                     <FiCalendar />
                     <span>{project.period}</span>
-                  </div>
-                  <div
-                    className={`flex items-center gap-2 ${project.statusTone}`}
-                  >
-                    <span className={`status-dot ${project.statusDot}`} />
-                    <span>{project.status}</span>
                   </div>
                 </div>
               </motion.article>
