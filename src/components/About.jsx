@@ -18,6 +18,7 @@ const certifications = [
     icon: "📊",
     tone: "credential-icon--deloitte",
     ariaLabel: "Deloitte",
+    fileUrl: "/certificates/deloitte-certificate.pdf",
   },
   {
     label: "Certificate",
