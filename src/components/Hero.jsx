@@ -147,9 +147,6 @@ const Hero = () => {
               <p className="mt-3 text-3xl font-display font-semibold text-ink">
                 2
               </p>
-              <p className="mt-1 text-sm text-warm-500">
-                AI & forecasting builds
-              </p>
             </div>
           </motion.div>
         </div>

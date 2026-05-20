@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { FiArrowUpRight, FiCalendar } from "react-icons/fi";
+import { FiArrowUpRight } from "react-icons/fi";
 
 const projects = [
   {
@@ -88,13 +88,6 @@ const Projects = ({ compact = false }) => {
                     View GitHub Repo
                     <FiArrowUpRight className="ml-2" />
                   </a>
-                </div>
-                <div className="card-divider" />
-                <div className="project-footer">
-                  <div className="flex items-center gap-2">
-                    <FiCalendar />
-                    <span>{project.period}</span>
-                  </div>
                 </div>
               </motion.article>
             );
