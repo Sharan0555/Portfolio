@@ -17,6 +17,20 @@ const certifications = [
     tone: "credential-icon--deloitte",
     ariaLabel: "Deloitte",
   },
+  {
+    label: "Certificate",
+    title: "Software Engineer Intern Certificate",
+    icon: "💼",
+    tone: "credential-icon--publication",
+    ariaLabel: "Software Engineer Intern Certificate",
+  },
+  {
+    label: "Certificate",
+    title: "SQL Advanced Certificate",
+    icon: "🗄️",
+    tone: "credential-icon--publication",
+    ariaLabel: "SQL Advanced Certificate",
+  },
 ];
 
 const education = [
