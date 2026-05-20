@@ -9,6 +9,8 @@ const certifications = [
     icon: "🏢",
     tone: "credential-icon--tata",
     ariaLabel: "TATA",
+    fileUrl:
+      "/certificates/genai-powered-data-analytics-job-simulation.pdf",
   },
   {
     label: "Deloitte",
@@ -23,6 +25,7 @@ const certifications = [
     icon: "💼",
     tone: "credential-icon--publication",
     ariaLabel: "Software Engineer Intern Certificate",
+    fileUrl: "/certificates/software-engineer-intern-certificate.pdf",
   },
   {
     label: "Certificate",
@@ -30,6 +33,7 @@ const certifications = [
     icon: "🗄️",
     tone: "credential-icon--publication",
     ariaLabel: "SQL Advanced Certificate",
+    fileUrl: "/certificates/sql-advanced-certificate.pdf",
   },
 ];
 
@@ -154,9 +158,19 @@ const About = () => {
                       {item.icon}
                     </span>
                   </div>
-                  <div className="space-y-2">
+                  <div className="flex-1 space-y-2">
                     <p className="credential-label">{item.label}</p>
                     <p className="credential-title">{item.title}</p>
+                    {item.fileUrl ? (
+                      <a
+                        href={item.fileUrl}
+                        target="_blank"
+                        rel="noreferrer"
+                        className="btn-secondary mt-3"
+                      >
+                        View
+                      </a>
+                    ) : null}
                   </div>
                 </div>
               );
