@@ -82,7 +82,7 @@ const Hero = () => {
               variants={fadeUp}
               className="text-sm font-semibold uppercase tracking-[0.25em] text-amber-600 md:text-base"
             >
-              Full Stack Developer & AI Engineer
+              Full Stack Developer & Data Analyst
             </motion.p>
             <motion.p
               custom={0.2}
