@@ -89,13 +89,15 @@ const Hero = () => {
               variants={fadeUp}
               className="text-base text-warm-500 md:text-lg"
             >
-              Entry-level Full Stack Developer / AI Engineer with hands-on
-              experience building scalable web applications using React.js,
-              Next.js, FastAPI, and Django. Strong foundation in data
-              structures, REST APIs, and backend systems, with practical
-              exposure to AI/ML-based applications and real-time data
-              processing. Passionate about developing efficient, user-centric
-              solutions and optimizing performance.
+              B.Tech Computer Engineering student (graduating 2026) with
+              practical experience building scalable full-stack applications
+              using React.js, Next.js, FastAPI, and Django. Proficient in REST
+              API design, data structures, and backend architecture, with
+              applied exposure to AI/ML integration and real-time data
+              processing. Currently working as a Full Stack Intern at Pentagon
+              Space, Bangalore. Published researcher (2025) with a strong
+              foundation in writing efficient, maintainable code across the
+              stack.
             </motion.p>
 
             <motion.div custom={0.3} variants={fadeUp}>
