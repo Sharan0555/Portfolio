@@ -145,10 +145,10 @@ const Hero = () => {
             <div className="card p-6">
               <p className="eyebrow">Projects</p>
               <p className="mt-3 text-3xl font-display font-semibold text-ink">
-                1
+                2
               </p>
               <p className="mt-1 text-sm text-warm-500">
-                Published Research · 2025
+                AI & forecasting builds
               </p>
             </div>
           </motion.div>

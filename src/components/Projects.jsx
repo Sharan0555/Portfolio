@@ -47,7 +47,7 @@ const Projects = ({ compact = false }) => {
           <h2 className="section-title">Projects</h2>
         </motion.div>
 
-        <div className="mt-12 max-w-3xl">
+        <div className="mt-12 max-w-3xl space-y-6">
           {projects.map((project, index) => {
             return (
               <motion.article
