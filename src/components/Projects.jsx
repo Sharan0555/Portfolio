@@ -3,7 +3,7 @@ import { FiArrowUpRight } from "react-icons/fi";
 
 const projects = [
   {
-    title: "AI Stock Price Prediction",
+    title: "Stock Price Prediction",
     description:
       "An AI-powered forecasting system using machine learning algorithms to predict future stock prices. Analyzes historical market data and patterns to help investors make data-driven financial decisions.",
     tags: ["Python", "Machine Learning", "NumPy", "Data Analysis"],
