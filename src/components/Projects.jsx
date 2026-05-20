@@ -13,6 +13,17 @@ const projects = [
     featured: true,
     githubUrl: "https://github.com/Sharan0555/StockPricePrediction",
   },
+  {
+    title: "Weather Prediction",
+    description:
+      "A weather forecasting project that uses historical weather patterns and predictive analysis to estimate future weather conditions and support smarter planning decisions.",
+    tags: ["Python", "Machine Learning", "Weather Data", "Forecasting"],
+    period: "Jun 2025 - Present",
+    category: "AI / Machine Learning",
+    icon: "⛅",
+    featured: false,
+    githubUrl: "https://github.com/Sharan0555/Weather-Prediction",
+  },
 ];
 
 const Projects = ({ compact = false }) => {
