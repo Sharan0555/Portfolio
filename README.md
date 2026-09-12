@@ -21,9 +21,9 @@ It analyzes historical market data and patterns to help with data-driven financi
 
 ## Contact
 
-- Email: sharanpatil630@gmail.com
+- Email: sharanpwork@gmail.com
 - Phone: +91 90490 61055
-- LinkedIn: https://www.linkedin.com/in/sharan-patil123
+- LinkedIn: https://www.linkedin.com/in/sharan-patil1516
 - GitHub Repo: https://github.com/Sharan0555/StockPricePrediction
 
 ## Live Site

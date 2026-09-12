@@ -6,8 +6,8 @@ import emailjs from "@emailjs/browser";
 const contactItems = [
   {
     label: "Email",
-    value: "Sharanpatil630@gmail.com",
-    href: "mailto:Sharanpatil630@gmail.com",
+    value: "sharanpwork@gmail.com",
+    href: "mailto:sharanpwork@gmail.com",
     icon: FiMail,
     iconClass: "bg-navy-100 text-ink",
   },
@@ -20,8 +20,8 @@ const contactItems = [
   },
   {
     label: "LinkedIn",
-    value: "linkedin.com/in/sharan-patil123",
-    href: "https://www.linkedin.com/in/sharan-patil123",
+    value: "linkedin.com/in/sharan-patil1516",
+    href: "https://www.linkedin.com/in/sharan-patil1516",
     icon: FiLinkedin,
     iconClass: "bg-amber-100 text-amber-600",
   },
